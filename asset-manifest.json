@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/changemaker-maps/static/css/main.f39572aa.css",
+    "main.js": "/changemaker-maps/static/js/main.c775bc23.js",
+    "static/js/453.f4895402.chunk.js": "/changemaker-maps/static/js/453.f4895402.chunk.js",
+    "index.html": "/changemaker-maps/index.html",
+    "main.f39572aa.css.map": "/changemaker-maps/static/css/main.f39572aa.css.map",
+    "main.c775bc23.js.map": "/changemaker-maps/static/js/main.c775bc23.js.map",
+    "453.f4895402.chunk.js.map": "/changemaker-maps/static/js/453.f4895402.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f39572aa.css",
+    "static/js/main.c775bc23.js"
+  ]
+}
