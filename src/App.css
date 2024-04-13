@@ -1,0 +1,56 @@
+
+/* Assuming the sidebar and project-map are siblings inside a flex container */
+.sidebar {
+  flex: 0 0 200px; /* Adjust the width as necessary */
+  overflow-y: auto; /* Enables scrolling within the sidebar */
+  height: 100vh; /* Adjust based on your layout */
+}
+
+.project-map {
+  flex: 1; /* Takes the remaining space */
+  display: flex;
+  overflow-x: auto; /* Allows horizontal scrolling if needed */
+  
+}
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0; /* Prevents the column from growing beyond the flex container */
+  margin: 1rem;
+  overflow-y: auto; /* Allows vertical scrolling within the column */
+}
+
+
+.card {
+  width: 100%; /* Card takes full width of the column */
+  font-size: 0.9rem; /* Smaller font size */
+  white-space: normal; /* Allow wrapping */
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Show only two lines */
+  -webkit-box-orient: vertical;
+  align-self: center;
+}
+
+
+.bg-empathy-light {
+  background-color: rgba(0, 123, 255, 0.2); /* Adjust the rgba values to get the desired lighter shade */
+}
+
+.bg-define-light {
+  background-color: rgba(40, 167, 69, 0.2);
+}
+
+.bg-ideate-light {
+  background-color: rgba(23, 162, 184, 0.2);
+}
+
+.bg-prototype-light {
+  background-color: rgba(255, 193, 7, 0.2);
+}
+
+.bg-test-light {
+  background-color: rgba(220, 53, 69, 0.2);
+}
